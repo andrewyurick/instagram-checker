@@ -1,0 +1,30 @@
+.enemies-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .enemies-title {
+    color: #000;
+  }
+  
+  .enemies-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    color: #000;
+  }
+  
+  .enemy {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #000;
+  }
+  
+  .enemy:last-child {
+    border-bottom: none;
+    color: #000;
+  }
